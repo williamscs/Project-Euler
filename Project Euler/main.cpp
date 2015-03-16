@@ -5,6 +5,6 @@
 
 int main(){
 	printf("hello world\n");
-	project2::runProject();
+	project3::runProject();
 	getchar();
 }

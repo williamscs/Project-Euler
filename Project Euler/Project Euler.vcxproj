@@ -63,10 +63,15 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="project1.cpp" />
     <ClCompile Include="project2.cpp" />
+    <ClCompile Include="project3.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="project1.h" />
     <ClInclude Include="project2.h" />
+    <ClInclude Include="project3.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.gitignore" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

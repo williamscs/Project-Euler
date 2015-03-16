@@ -24,6 +24,9 @@
     <ClCompile Include="project2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="project3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="project1.h">
@@ -32,5 +35,11 @@
     <ClInclude Include="project2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="project3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.gitignore" />
   </ItemGroup>
 </Project>
