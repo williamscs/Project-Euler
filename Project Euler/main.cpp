@@ -4,8 +4,9 @@
 #include "project3.h"
 #include "project4.h"
 #include "project5.h"
+#include "project6.h"
 
 int main(){
-	project5::runProject();
+	project6::runProject();
 	getchar();
 }
