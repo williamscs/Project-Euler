@@ -14,13 +14,12 @@ project4::~project4(void)
 
 bool project4::isPalindrome(long unsigned number){
 	bool isPal = false;
+	//from http://www.cplusplus.com/articles/D9j2Nwbp/
 	std::string rval = static_cast<std::stringstream*>( &(std::stringstream() << number) )->str();
 	int length = rval.size();
 	int half_length = (length % 2) == 0?length/2:(length/2)+1;
-	//printf("Half length is %d", half_length);
 	for(int i = 0; i < half_length; i++ ){
 		isPal = rval[i] == rval[length-1-i];
-		//printf("%c == %c is %s", rval[i], rval[length-1-i], isPal ? "true" : "false");
 		if( isPal == false )
 			break;
 	}
