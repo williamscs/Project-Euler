@@ -39,6 +39,9 @@
     <ClCompile Include="project7.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="project8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="project1.h">
@@ -60,6 +63,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="project7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="project8.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

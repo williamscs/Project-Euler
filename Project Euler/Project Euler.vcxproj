@@ -68,6 +68,7 @@
     <ClCompile Include="project5.cpp" />
     <ClCompile Include="project6.cpp" />
     <ClCompile Include="project7.cpp" />
+    <ClCompile Include="project8.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="project1.h" />
@@ -77,6 +78,7 @@
     <ClInclude Include="project5.h" />
     <ClInclude Include="project6.h" />
     <ClInclude Include="project7.h" />
+    <ClInclude Include="project8.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\.gitignore" />

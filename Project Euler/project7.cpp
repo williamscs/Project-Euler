@@ -29,7 +29,7 @@ std::vector<bool> project7::sieve_of_eratosthenes(float float_cap){
 }
 
 float project7::find_cap(unsigned n){
-	return 2*n*(float)log(n);
+	return 2*n*(float)log((float)n);
 }
 
 unsigned project7::find_nth_prime(unsigned n){
